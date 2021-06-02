@@ -1,0 +1,139 @@
+#title{ background-color: #ff4c68;
+
+}
+section{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.heading{
+  font-family: 'Montserrat-black',sans-serif;
+  line-height: 1.5;
+  font-size: 4.5rem;
+  color: white;
+}
+.container-fluid{
+  padding: 0 15%;
+}
+.navbar-brand{
+  font-size: 2rem;
+}
+.nav-link{font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.nav-item{ margin-right: 20px;
+  padding: 0 5px;
+}
+
+body{
+  font-family: 'Montserrat';
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+.dog{
+  margin-top: 60px;
+  transform: rotate(25deg);
+  width: 55%;
+  position: absolute;
+  right: 5%
+  }
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  z-index:1;
+
+}
+.hov-state:hover{
+  color: #ff4c68;
+  }
+
+h3{
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 1rem;
+  font-weight: bolder;
+  font-size: 2.0rem;
+}
+#testimonials{
+  background-color: #ef8172;
+  color: white;
+
+  text-align: center;
+
+  }
+  .carousel-item{
+    padding: 3% 15%;
+  }
+h2{
+  text-align: center;
+  font-family: "Montserrat-bold",sans-serif;
+  font-size: 3.0rem;
+  font-weight: bold;
+  line-height: 1.5;
+
+  }
+
+  .testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 25px;
+  }
+#press{
+  background-color: #ef8172;
+  text-align:center;
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width: 11%;
+  margin: 20px 30px 50px;
+}
+#pricing{
+  padding: 100px;
+}
+.pricing-col{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .dog{
+    position: static;
+    transform:rotate(0);
+  }
+  #title{
+    text-align: center;
+    }
+  .heading{
+    font-size: 3.5rem;
+  }
+}
+
+#cta{
+    background-color: #ff4c68;
+    font-family: 'Montserrat-black',sans-serif;
+    line-height: 1.5;
+
+    color: white;
+    text-align: center;
+    padding: 1% 7%;
+}
+.end{
+  font-size: 3rem;
+}
+#footer{
+  text-align: center;
+  padding: 2% 12%;
+  background-color: #fff;
+}
+.social-media{
+  color: black;
+  padding: 0 10px;
+}
